@@ -1,0 +1,203 @@
+{
+  "dataSources": [{
+    "key": "lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4_default",
+    "modelKey": "lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4",
+    "name": "Tasks",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [
+    {
+      "action": "onBeforeDeleteTaskInterceptor(record);",
+      "type": "ON_DELETE"
+    },
+    {
+      "action": "",
+      "type": "ON_AFTER_CREATE"
+    },
+    {
+      "action": "var title \u003d \u0027POC - App Maker Tasks API\u0027;\nonBeforeCreateTaskInterceptor(record, title);",
+      "type": "ON_CREATE"
+    }
+  ],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "autoIncrement": true,
+      "columnName": "Id",
+      "integer": false,
+      "key": "FkIvl0qMzPcyrjHY",
+      "name": "Id",
+      "required": false,
+      "sqlType": "INT",
+      "type": "Number",
+      "unsigned": false,
+      "writableAfterSave": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "title",
+      "key": "4pqDPvZD1jRt2JuE",
+      "minLength": 0,
+      "name": "title",
+      "required": false,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unsigned": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "details",
+      "key": "7eUPoebIAnxeXMFH",
+      "minLength": 0,
+      "name": "details",
+      "required": false,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unsigned": false
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "due",
+      "key": "5kl4EnrWHUzyfIIa",
+      "name": "due",
+      "required": false,
+      "sqlType": "DATETIME",
+      "type": "Date",
+      "unsigned": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "taskId",
+      "key": "89i2tgowSZ2lhIRk",
+      "minLength": 0,
+      "name": "taskId",
+      "required": false,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unsigned": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "taskListId",
+      "key": "JytEBL2xbXBRzeeM",
+      "minLength": 0,
+      "name": "taskListId",
+      "required": false,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unsigned": false
+    }
+  ],
+  "key": "lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Tasks",
+  "primaryKeyColumns": ["FkIvl0qMzPcyrjHY"],
+  "table": "Tasks",
+  "type": "SPECKLE",
+  "userIdFieldType": "USER_ID",
+  "view": false
+}

@@ -1,0 +1,122 @@
+{
+  "dataSources": [{
+    "key": "MLVz2Zz87MSMhOAW7jGfhNbwxtfq2o9O_default",
+    "modelKey": "MLVz2Zz87MSMhOAW7jGfhNbwxtfq2o9O",
+    "name": "TasksList",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "MLVz2Zz87MSMhOAW7jGfhNbwxtfq2o9O_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "autoIncrement": true,
+      "columnName": "Id",
+      "integer": false,
+      "key": "0RHP7x48u79CPxVA",
+      "name": "Id",
+      "required": false,
+      "sqlType": "INT",
+      "type": "Number",
+      "unsigned": false,
+      "writableAfterSave": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "title",
+      "key": "E9rurYKUATfKgRuA",
+      "minLength": 0,
+      "name": "title",
+      "required": true,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unique": true,
+      "unsigned": false
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "taskListId",
+      "key": "WqGHOHG0Ngtwbzu2",
+      "minLength": 0,
+      "name": "taskListId",
+      "required": false,
+      "sqlType": "VARCHAR",
+      "sqlTypeColumnSize": "255",
+      "type": "String",
+      "unsigned": false
+    }
+  ],
+  "key": "MLVz2Zz87MSMhOAW7jGfhNbwxtfq2o9O",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "TasksList",
+  "primaryKeyColumns": ["0RHP7x48u79CPxVA"],
+  "table": "TasksList",
+  "type": "SPECKLE",
+  "userIdFieldType": "USER_ID",
+  "view": false
+}

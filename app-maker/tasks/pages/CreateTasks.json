@@ -1,0 +1,2230 @@
+{
+  "class": "Panel",
+  "key": "WUQtOvH9awk8YYBHh53vGblXXPBWZqYh",
+  "permission": {
+    "name": "canRead",
+    "permissions": [
+      {"type": "everyone"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "name",
+      "v": "CreateTasks"
+    },
+    {
+      "k": "styles",
+      "v": {
+        "list": [],
+        "type": "List[String]"
+      }
+    },
+    {
+      "k": "constrain_left",
+      "v": true
+    },
+    {
+      "k": "left",
+      "v": 25
+    },
+    {
+      "k": "constrain_right",
+      "v": false
+    },
+    {
+      "k": "right",
+      "v": 0
+    },
+    {
+      "k": "constrain_width",
+      "v": true
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "constrain_minWidth",
+      "v": false
+    },
+    {
+      "k": "minWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxWidth",
+      "v": false
+    },
+    {
+      "k": "maxWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_top",
+      "v": true
+    },
+    {
+      "k": "top",
+      "v": 5
+    },
+    {
+      "k": "constrain_bottom",
+      "v": false
+    },
+    {
+      "k": "bottom",
+      "v": 0
+    },
+    {
+      "k": "constrain_height",
+      "v": true
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "constrain_minHeight",
+      "v": false
+    },
+    {
+      "k": "minHeight",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxHeight",
+      "v": false
+    },
+    {
+      "k": "maxHeight",
+      "v": 0
+    },
+    {
+      "k": "autoHeight",
+      "v": false
+    },
+    {
+      "k": "autoWidth",
+      "v": false
+    },
+    {
+      "k": "align",
+      "v": "inherited"
+    },
+    {
+      "k": "grow",
+      "v": 0
+    },
+    {
+      "k": "validationDisplay",
+      "v": false
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "createChildrenOnInit",
+      "v": "ON_INIT"
+    },
+    {
+      "k": "layout",
+      "v": "fixed"
+    },
+    {
+      "k": "wrap",
+      "v": "nowrap"
+    },
+    {
+      "k": "justify",
+      "v": "start"
+    },
+    {
+      "k": "alignChildren",
+      "v": "baseline"
+    },
+    {
+      "k": "wrapAlign",
+      "v": "stretch"
+    },
+    {
+      "k": "title",
+      "v": ""
+    },
+    {
+      "k": "visible",
+      "v": true
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [
+          {
+            "class": "Panel",
+            "key": "0_826097011",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 440
+              },
+              {
+                "k": "height",
+                "v": 500
+              },
+              {
+                "k": "name",
+                "v": "Form1"
+              },
+              {
+                "k": "layout",
+                "v": "vertical"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "_dataSource",
+                    "targetExpression": "@datasources.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4_default.modes.create",
+                    "targetLiteralExpression": "@datasources.Tasks.modes.create",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              },
+              {
+                "k": "variant",
+                "v": "Paper"
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["app-Form"],
+                  "type": "List[String]"
+                }
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "0_110120841",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 200
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "name",
+                          "v": "Form1Header"
+                        },
+                        {
+                          "k": "suffixName",
+                          "v": "Header"
+                        },
+                        {
+                          "k": "layout",
+                          "v": "horizontal"
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": ["app-FormHeader"],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "SimpleLabel",
+                                "key": "0_2123188424",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 20
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Title"
+                                  },
+                                  {
+                                    "k": "text",
+                                    "v": "Create Tasks"
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "Title"
+                                  },
+                                  {
+                                    "k": "grow",
+                                    "v": 1
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "LoadingIndicator",
+                                "key": "0_2111534363",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [{
+                                        "sourceExpression": "visible",
+                                        "targetExpression": "@datasource.loading || @datasource.creating || @datasource.deleting",
+                                        "targetLiteralExpression": "@datasource.loading || @datasource.creating || @datasource.deleting",
+                                        "type": "BindingInfo"
+                                      }],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 22
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 22
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Form1Spinner"
+                                  },
+                                  {
+                                    "k": "suffixName",
+                                    "v": "Spinner"
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "center"
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "justify",
+                          "v": "spaceBetween"
+                        },
+                        {
+                          "k": "editorNonInheritedLocked",
+                          "v": true
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "Panel",
+                      "key": "0_106900012",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 200
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "name",
+                          "v": "Form1Body"
+                        },
+                        {
+                          "k": "suffixName",
+                          "v": "Body"
+                        },
+                        {
+                          "k": "layout",
+                          "v": "vertical"
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": ["app-FormBody"],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "editorNonInheritedLocked",
+                          "v": true
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "TextField",
+                                "key": "0_225911157",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 32
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Field2"
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "sourceExpression": "value",
+                                          "targetExpression": "@datasource.item.4pqDPvZD1jRt2JuE",
+                                          "targetLiteralExpression": "@datasource.item.title",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "label",
+                                          "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.4pqDPvZD1jRt2JuE.displayName",
+                                          "targetLiteralExpression": "@models.Tasks.fields.title.displayName",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "required",
+                                          "targetExpression": "@datasource.model.fields.4pqDPvZD1jRt2JuE.required",
+                                          "targetLiteralExpression": "@datasource.model.fields.title.required",
+                                          "type": "BindingInfo"
+                                        }
+                                      ],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "stretch"
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "TextField",
+                                "key": "0_1883534920",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 32
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Field1"
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "sourceExpression": "value",
+                                          "targetExpression": "@datasource.item.7eUPoebIAnxeXMFH",
+                                          "targetLiteralExpression": "@datasource.item.details",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "label",
+                                          "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.7eUPoebIAnxeXMFH.displayName",
+                                          "targetLiteralExpression": "@models.Tasks.fields.details.displayName",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "required",
+                                          "targetExpression": "@datasource.model.fields.7eUPoebIAnxeXMFH.required",
+                                          "targetLiteralExpression": "@datasource.model.fields.details.required",
+                                          "type": "BindingInfo"
+                                        }
+                                      ],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "stretch"
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "DateTextBox",
+                                "key": "0_26795206",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 32
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Field"
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "sourceExpression": "value",
+                                          "targetExpression": "@datasource.item.5kl4EnrWHUzyfIIa",
+                                          "targetLiteralExpression": "@datasource.item.end",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "label",
+                                          "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.5kl4EnrWHUzyfIIa.displayName",
+                                          "targetLiteralExpression": "@models.Tasks.fields.end.displayName",
+                                          "type": "BindingInfo"
+                                        },
+                                        {
+                                          "sourceExpression": "required",
+                                          "targetExpression": "@datasource.model.fields.5kl4EnrWHUzyfIIa.required",
+                                          "targetLiteralExpression": "@datasource.model.fields.end.required",
+                                          "type": "BindingInfo"
+                                        }
+                                      ],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "stretch"
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "Panel",
+                      "key": "0_196058068",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 200
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "name",
+                          "v": "Spring"
+                        },
+                        {
+                          "k": "layout",
+                          "v": "horizontal"
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "editorNonInheritedLocked",
+                          "v": true
+                        },
+                        {
+                          "k": "minHeight",
+                          "v": 16
+                        },
+                        {
+                          "k": "grow",
+                          "v": 1
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "Panel",
+                      "key": "0_682237446",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 200
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "name",
+                          "v": "Form1Footer"
+                        },
+                        {
+                          "k": "suffixName",
+                          "v": "Footer"
+                        },
+                        {
+                          "k": "layout",
+                          "v": "horizontal"
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": ["app-FormFooter"],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "justify",
+                          "v": "end"
+                        },
+                        {
+                          "k": "alignChildren",
+                          "v": "center"
+                        },
+                        {
+                          "k": "editorNonInheritedLocked",
+                          "v": true
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "SimpleButton",
+                                "key": "0_40554229",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 92
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 36
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Form1ClearButton"
+                                  },
+                                  {
+                                    "k": "suffixName",
+                                    "v": "ClearButton"
+                                  },
+                                  {
+                                    "k": "text",
+                                    "v": "Clear"
+                                  },
+                                  {
+                                    "k": "action",
+                                    "v": "widget.datasource.clearChanges();"
+                                  },
+                                  {
+                                    "k": "title",
+                                    "v": "Reset all changes"
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "SimpleButton",
+                                "key": "0_630962823",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 92
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 36
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Form1SubmitButton"
+                                  },
+                                  {
+                                    "k": "suffixName",
+                                    "v": "SubmitButton"
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "FlatColor"
+                                  },
+                                  {
+                                    "k": "text",
+                                    "v": "Submit"
+                                  },
+                                  {
+                                    "k": "action",
+                                    "v": "widget.datasource.createItem();"
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [{
+                                        "sourceExpression": "enabled",
+                                        "targetExpression": "@widget.parent.parent.valid",
+                                        "targetLiteralExpression": "@widget.parent.parent.valid",
+                                        "type": "BindingInfo"
+                                      }],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "title",
+                                    "v": "Submit item"
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "top",
+                "v": 25
+              },
+              {
+                "k": "left",
+                "v": 10
+              },
+              {
+                "k": "right",
+                "v": 510
+              },
+              {
+                "k": "bottom",
+                "v": 435
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "0_1094112108",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 659
+              },
+              {
+                "k": "height",
+                "v": 582
+              },
+              {
+                "k": "name",
+                "v": "Table1Panel"
+              },
+              {
+                "k": "layout",
+                "v": "vertical"
+              },
+              {
+                "k": "suffixName",
+                "v": "Panel"
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "_dataSource",
+                    "targetExpression": "@datasources.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4_default",
+                    "targetLiteralExpression": "@datasources.Tasks",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              },
+              {
+                "k": "variant",
+                "v": "Paper"
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "0_96185524",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 639
+                        },
+                        {
+                          "k": "height",
+                          "v": 530
+                        },
+                        {
+                          "k": "name",
+                          "v": "Table1"
+                        },
+                        {
+                          "k": "layout",
+                          "v": "vertical"
+                        },
+                        {
+                          "k": "onLoad",
+                          "v": "// GENERATED CODE: modify at your own risk\nwindow._am \u003d window._am || {};\nif (!window._am.TableState) {\n  window._am.TableState \u003d {};\n  window._am.inFlight \u003d false;\n}\nif (!window._am.sortTableByFieldPathSegments) {\n  window._am.sortTableByFieldPathSegments \u003d function(datasource, fieldPathSegments, fieldHeader, tableState) {\n    if (!(fieldPathSegments instanceof Array) || (fieldPathSegments.length \u003d\u003d 0)) {\n      throw \"Can\u0027t sort the table because specified field was not found.\";\n    }\n    tableState.inFlight \u003d true;\n    var sortingQuery \u003d datasource.query.sorting;\n    var fieldName \u003d \"\";\n    for (var i \u003d 0, len \u003d fieldPathSegments.length; i \u003c len; i++) {\n      if (fieldPathSegments[i] \u0026\u0026 fieldPathSegments[i].name) {\n        if (sortingQuery[fieldPathSegments[i].name]) {\n          sortingQuery \u003d sortingQuery[fieldPathSegments[i].name];\n          fieldName +\u003d i \u003d\u003d 0 ? fieldPathSegments[i].name : \".\" + fieldPathSegments[i].name;\n        } else {\n          throw \"Can\u0027t sort the table because specified field was not found.\";\n        }\n      } else {\n        throw \"Can\u0027t sort the table because specified field was not found.\";\n      }\n    }\n    if (tableState.sortByField \u003d\u003d\u003d fieldName) {\n      tableState.ascending \u003d !tableState.ascending;\n    } else {\n      if (tableState.fieldHeader) {\n        tableState.fieldHeader.text \u003d tableState.fieldHeaderText;\n        tableState.fieldHeader.ariaLabel \u003d \"\";\n      }\n      tableState.sortByField \u003d fieldName;\n      tableState.ascending \u003d true;\n      tableState.fieldHeader \u003d fieldHeader;\n      tableState.fieldHeaderText \u003d fieldHeader.text;\n    }\n    datasource.query.clearSorting();\n    var sortDirection \u003d tableState.ascending ? \"ascending\" : \"descending\";\n    sortingQuery[\"_\" + sortDirection]();\n    datasource.query.pageIndex \u003d 1;\n    datasource.load(function() {\n      tableState.inFlight \u003d false;\n      fieldHeader.text \u003d fieldHeader.text.replace(/ (\\u25B2|\\u25BC)/g, \"\");\n      if (tableState.sortByField \u003d\u003d\u003d fieldName) {\n        fieldHeader.ariaLabel \u003d fieldHeader.text + \" sort \" + sortDirection;\n        fieldHeader.text \u003d fieldHeader.text + (tableState.ascending ? \" \\u25B2\" : \" \\u25BC\");\n        app.accessibility.announce(fieldHeader.ariaLabel);\n      }\n    });\n  };\n}\n"
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": ["app-ListTable"],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "Panel",
+                                "key": "0_1995835906",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 200
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 200
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Table1Header"
+                                  },
+                                  {
+                                    "k": "layout",
+                                    "v": "horizontal"
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "stretch"
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "alignChildren",
+                                    "v": "center"
+                                  },
+                                  {
+                                    "k": "suffixName",
+                                    "v": "Header"
+                                  },
+                                  {
+                                    "k": "styles",
+                                    "v": {
+                                      "list": ["app-ListTableHeaderPanel"],
+                                      "type": "List[String]"
+                                    }
+                                  },
+                                  {
+                                    "k": "children",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "class": "Anchor",
+                                          "key": "0_2087790167",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-bottom",
+                                                    "value": "16px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 60
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "Table1IdHeader"
+                                            },
+                                            {
+                                              "k": "suffixName",
+                                              "v": "IdHeader"
+                                            },
+                                            {
+                                              "k": "action",
+                                              "v": "// GENERATED CODE: modify at your own risk\nwindow._am.sortTableByFieldPathSegments(widget.datasource, [widget.datasource.model.fields.Id], widget, window._am.TableState);"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "Id"
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "text",
+                                                  "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.FkIvl0qMzPcyrjHY.displayName",
+                                                  "targetLiteralExpression": "@models.Tasks.fields.Id.displayName",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "styles",
+                                              "v": {
+                                                "list": ["app-ListTableHeader"],
+                                                "type": "List[String]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "Anchor",
+                                          "key": "0_59931035",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-bottom",
+                                                    "value": "16px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "Table1titleHeader"
+                                            },
+                                            {
+                                              "k": "suffixName",
+                                              "v": "titleHeader"
+                                            },
+                                            {
+                                              "k": "action",
+                                              "v": "// GENERATED CODE: modify at your own risk\nwindow._am.sortTableByFieldPathSegments(widget.datasource, [widget.datasource.model.fields.title], widget, window._am.TableState);"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "Title"
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "text",
+                                                  "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.4pqDPvZD1jRt2JuE.displayName",
+                                                  "targetLiteralExpression": "@models.Tasks.fields.title.displayName",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "grow",
+                                              "v": 1
+                                            },
+                                            {
+                                              "k": "styles",
+                                              "v": {
+                                                "list": ["app-ListTableHeader"],
+                                                "type": "List[String]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "Anchor",
+                                          "key": "0_773965991",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-bottom",
+                                                    "value": "16px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "Table1detailsHeader"
+                                            },
+                                            {
+                                              "k": "suffixName",
+                                              "v": "detailsHeader"
+                                            },
+                                            {
+                                              "k": "action",
+                                              "v": "// GENERATED CODE: modify at your own risk\nwindow._am.sortTableByFieldPathSegments(widget.datasource, [widget.datasource.model.fields.details], widget, window._am.TableState);"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "Details"
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "text",
+                                                  "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.7eUPoebIAnxeXMFH.displayName",
+                                                  "targetLiteralExpression": "@models.Tasks.fields.details.displayName",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "grow",
+                                              "v": 1
+                                            },
+                                            {
+                                              "k": "styles",
+                                              "v": {
+                                                "list": ["app-ListTableHeader"],
+                                                "type": "List[String]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "Anchor",
+                                          "key": "0_923409381",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "18px"
+                                                  },
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-bottom",
+                                                    "value": "16px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 75
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "Table1endHeader"
+                                            },
+                                            {
+                                              "k": "suffixName",
+                                              "v": "endHeader"
+                                            },
+                                            {
+                                              "k": "action",
+                                              "v": "// GENERATED CODE: modify at your own risk\nwindow._am.sortTableByFieldPathSegments(widget.datasource, [widget.datasource.model.fields.end], widget, window._am.TableState);"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "End"
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "text",
+                                                  "targetExpression": "@models.lfOoOYAAIqTOi1VuM5uHIE1QaVJqyCc4.fields.5kl4EnrWHUzyfIIa.displayName",
+                                                  "targetLiteralExpression": "@models.Tasks.fields.end.displayName",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "styles",
+                                              "v": {
+                                                "list": ["app-ListTableHeader"],
+                                                "type": "List[String]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "LoadingIndicator",
+                                          "key": "0_551225419",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "visible",
+                                                  "targetExpression": "@datasource.loading || @datasource.creating || @datasource.deleting",
+                                                  "targetLiteralExpression": "@datasource.loading || @datasource.creating || @datasource.deleting",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 22
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 22
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "Table1Spinner"
+                                            },
+                                            {
+                                              "k": "invisibilityType",
+                                              "v": "hidden"
+                                            },
+                                            {
+                                              "k": "suffixName",
+                                              "v": "Spinner"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        }
+                                      ],
+                                      "type": "List[ComponentInfo]"
+                                    }
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "ListPanel",
+                                "key": "0_548244790",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "prototype",
+                                    "v": {
+                                      "appKey": "1_727714576",
+                                      "type": "AppChildKey"
+                                    }
+                                  },
+                                  {
+                                    "k": "children",
+                                    "v": {
+                                      "list": [{
+                                        "class": "Panel",
+                                        "key": "1_727714576",
+                                        "propList": [
+                                          {
+                                            "k": "styleMap",
+                                            "v": {
+                                              "name": "styleMap",
+                                              "properties": [],
+                                              "type": "PropertyMap[styleMap]"
+                                            }
+                                          },
+                                          {
+                                            "k": "height",
+                                            "v": 40
+                                          },
+                                          {
+                                            "k": "autoWidth",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "align",
+                                            "v": "stretch"
+                                          },
+                                          {
+                                            "k": "name",
+                                            "v": "Table1Row"
+                                          },
+                                          {
+                                            "k": "styleDescriptorName",
+                                            "v": "ListPanelRow"
+                                          },
+                                          {
+                                            "k": "suffixName",
+                                            "v": "Row"
+                                          },
+                                          {
+                                            "k": "layout",
+                                            "v": "horizontal"
+                                          },
+                                          {
+                                            "k": "autoHeight",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "alignChildren",
+                                            "v": "center"
+                                          },
+                                          {
+                                            "k": "styles",
+                                            "v": {
+                                              "list": [
+                                                "app-ListTableRow",
+                                                "hoverAncestor"
+                                              ],
+                                              "type": "List[String]"
+                                            }
+                                          },
+                                          {
+                                            "k": "children",
+                                            "v": {
+                                              "list": [
+                                                {
+                                                  "class": "SimpleLabel",
+                                                  "key": "0_403293117",
+                                                  "propList": [
+                                                    {
+                                                      "k": "styleMap",
+                                                      "v": {
+                                                        "name": "styleMap",
+                                                        "properties": [
+                                                          {
+                                                            "name": "margin-left",
+                                                            "value": "24px"
+                                                          },
+                                                          {
+                                                            "name": "margin-right",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-top",
+                                                            "value": "16px"
+                                                          },
+                                                          {
+                                                            "name": "margin-bottom",
+                                                            "value": "16px"
+                                                          }
+                                                        ],
+                                                        "type": "PropertyMap[styleMap]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "width",
+                                                      "v": 60
+                                                    },
+                                                    {
+                                                      "k": "height",
+                                                      "v": 20
+                                                    },
+                                                    {
+                                                      "k": "name",
+                                                      "v": "Field6"
+                                                    },
+                                                    {
+                                                      "k": "bindings",
+                                                      "v": {
+                                                        "list": [{
+                                                          "sourceExpression": "text",
+                                                          "targetExpression": "@datasource.item.FkIvl0qMzPcyrjHY",
+                                                          "targetLiteralExpression": "@datasource.item.Id",
+                                                          "type": "BindingInfo"
+                                                        }],
+                                                        "type": "List[BindingInfo]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "text",
+                                                      "v": "Label"
+                                                    },
+                                                    {
+                                                      "k": "label",
+                                                      "v": ""
+                                                    },
+                                                    {
+                                                      "k": "autoHeight",
+                                                      "v": true
+                                                    }
+                                                  ],
+                                                  "type": "ComponentInfo"
+                                                },
+                                                {
+                                                  "class": "SimpleLabel",
+                                                  "key": "0_480476010",
+                                                  "propList": [
+                                                    {
+                                                      "k": "styleMap",
+                                                      "v": {
+                                                        "name": "styleMap",
+                                                        "properties": [
+                                                          {
+                                                            "name": "margin-left",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-right",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-top",
+                                                            "value": "16px"
+                                                          },
+                                                          {
+                                                            "name": "margin-bottom",
+                                                            "value": "16px"
+                                                          }
+                                                        ],
+                                                        "type": "PropertyMap[styleMap]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "width",
+                                                      "v": 100
+                                                    },
+                                                    {
+                                                      "k": "height",
+                                                      "v": 20
+                                                    },
+                                                    {
+                                                      "k": "name",
+                                                      "v": "Field5"
+                                                    },
+                                                    {
+                                                      "k": "bindings",
+                                                      "v": {
+                                                        "list": [{
+                                                          "sourceExpression": "text",
+                                                          "targetExpression": "@datasource.item.4pqDPvZD1jRt2JuE",
+                                                          "targetLiteralExpression": "@datasource.item.title",
+                                                          "type": "BindingInfo"
+                                                        }],
+                                                        "type": "List[BindingInfo]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "text",
+                                                      "v": "Label"
+                                                    },
+                                                    {
+                                                      "k": "label",
+                                                      "v": ""
+                                                    },
+                                                    {
+                                                      "k": "autoWidth",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "autoHeight",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "grow",
+                                                      "v": 1
+                                                    }
+                                                  ],
+                                                  "type": "ComponentInfo"
+                                                },
+                                                {
+                                                  "class": "SimpleLabel",
+                                                  "key": "0_336605033",
+                                                  "propList": [
+                                                    {
+                                                      "k": "styleMap",
+                                                      "v": {
+                                                        "name": "styleMap",
+                                                        "properties": [
+                                                          {
+                                                            "name": "margin-left",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-right",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-top",
+                                                            "value": "16px"
+                                                          },
+                                                          {
+                                                            "name": "margin-bottom",
+                                                            "value": "16px"
+                                                          }
+                                                        ],
+                                                        "type": "PropertyMap[styleMap]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "width",
+                                                      "v": 100
+                                                    },
+                                                    {
+                                                      "k": "height",
+                                                      "v": 20
+                                                    },
+                                                    {
+                                                      "k": "name",
+                                                      "v": "Field4"
+                                                    },
+                                                    {
+                                                      "k": "bindings",
+                                                      "v": {
+                                                        "list": [{
+                                                          "sourceExpression": "text",
+                                                          "targetExpression": "@datasource.item.7eUPoebIAnxeXMFH",
+                                                          "targetLiteralExpression": "@datasource.item.details",
+                                                          "type": "BindingInfo"
+                                                        }],
+                                                        "type": "List[BindingInfo]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "text",
+                                                      "v": "Label"
+                                                    },
+                                                    {
+                                                      "k": "label",
+                                                      "v": ""
+                                                    },
+                                                    {
+                                                      "k": "autoWidth",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "autoHeight",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "grow",
+                                                      "v": 1
+                                                    }
+                                                  ],
+                                                  "type": "ComponentInfo"
+                                                },
+                                                {
+                                                  "class": "SimpleLabel",
+                                                  "key": "0_1529664827",
+                                                  "propList": [
+                                                    {
+                                                      "k": "styleMap",
+                                                      "v": {
+                                                        "name": "styleMap",
+                                                        "properties": [
+                                                          {
+                                                            "name": "margin-left",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-right",
+                                                            "value": "18px"
+                                                          },
+                                                          {
+                                                            "name": "margin-top",
+                                                            "value": "16px"
+                                                          },
+                                                          {
+                                                            "name": "margin-bottom",
+                                                            "value": "16px"
+                                                          }
+                                                        ],
+                                                        "type": "PropertyMap[styleMap]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "width",
+                                                      "v": 75
+                                                    },
+                                                    {
+                                                      "k": "height",
+                                                      "v": 20
+                                                    },
+                                                    {
+                                                      "k": "name",
+                                                      "v": "Field3"
+                                                    },
+                                                    {
+                                                      "k": "bindings",
+                                                      "v": {
+                                                        "list": [{
+                                                          "sourceExpression": "text",
+                                                          "targetExpression": "@datasource.item.5kl4EnrWHUzyfIIa",
+                                                          "targetLiteralExpression": "@datasource.item.end",
+                                                          "type": "BindingInfo"
+                                                        }],
+                                                        "type": "List[BindingInfo]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "text",
+                                                      "v": "Label"
+                                                    },
+                                                    {
+                                                      "k": "label",
+                                                      "v": ""
+                                                    },
+                                                    {
+                                                      "k": "autoHeight",
+                                                      "v": true
+                                                    }
+                                                  ],
+                                                  "type": "ComponentInfo"
+                                                },
+                                                {
+                                                  "class": "SimpleButton",
+                                                  "key": "0_1075837008",
+                                                  "propList": [
+                                                    {
+                                                      "k": "styleMap",
+                                                      "v": {
+                                                        "name": "styleMap",
+                                                        "properties": [{
+                                                          "name": "margin-right",
+                                                          "value": "24px"
+                                                        }],
+                                                        "type": "PropertyMap[styleMap]"
+                                                      }
+                                                    },
+                                                    {
+                                                      "k": "width",
+                                                      "v": 92
+                                                    },
+                                                    {
+                                                      "k": "height",
+                                                      "v": 36
+                                                    },
+                                                    {
+                                                      "k": "name",
+                                                      "v": "DeleteButton"
+                                                    },
+                                                    {
+                                                      "k": "variant",
+                                                      "v": "Icon"
+                                                    },
+                                                    {
+                                                      "k": "text",
+                                                      "v": "Delete"
+                                                    },
+                                                    {
+                                                      "k": "title",
+                                                      "v": "Delete"
+                                                    },
+                                                    {
+                                                      "k": "ariaLabel",
+                                                      "v": "Delete table row"
+                                                    },
+                                                    {
+                                                      "k": "action",
+                                                      "v": "widget.datasource.deleteItem();"
+                                                    },
+                                                    {
+                                                      "k": "constrain_right",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "constrain_left",
+                                                      "v": false
+                                                    },
+                                                    {
+                                                      "k": "right",
+                                                      "v": 8
+                                                    },
+                                                    {
+                                                      "k": "top",
+                                                      "v": 6
+                                                    },
+                                                    {
+                                                      "k": "left",
+                                                      "v": 595
+                                                    },
+                                                    {
+                                                      "k": "autoHeight",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "autoWidth",
+                                                      "v": true
+                                                    },
+                                                    {
+                                                      "k": "styles",
+                                                      "v": {
+                                                        "list": ["visibleOnAncestorHover"],
+                                                        "type": "List[String]"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "type": "ComponentInfo"
+                                                }
+                                              ],
+                                              "type": "List[ComponentInfo]"
+                                            }
+                                          }
+                                        ],
+                                        "type": "ComponentInfo"
+                                      }],
+                                      "type": "List[ComponentInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 400
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 200
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "Table1Body"
+                                  },
+                                  {
+                                    "k": "suffixName",
+                                    "v": "Body"
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "align",
+                                    "v": "stretch"
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "grow",
+                                    "v": 1
+                                  },
+                                  {
+                                    "k": "editorNonInheritedLocked",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_width",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_right",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "grow",
+                          "v": 1
+                        },
+                        {
+                          "k": "editorNonInheritedLocked",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": true
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "Pager",
+                      "key": "0_878052090",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [
+                              {
+                                "name": "margin-right",
+                                "value": "14px"
+                              },
+                              {
+                                "name": "margin-bottom",
+                                "value": "14px"
+                              }
+                            ],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "width",
+                          "v": 140
+                        },
+                        {
+                          "k": "height",
+                          "v": 32
+                        },
+                        {
+                          "k": "onPreviousClick",
+                          "v": "widget.datasource.prevPage();"
+                        },
+                        {
+                          "k": "onNextClick",
+                          "v": "widget.datasource.nextPage();"
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [
+                              {
+                                "sourceExpression": "visible",
+                                "targetExpression": "@datasource.loaded \u0026\u0026 !(@datasource.firstPage \u0026\u0026 @datasource.lastPage)",
+                                "targetLiteralExpression": "@datasource.loaded \u0026\u0026 !(@datasource.firstPage \u0026\u0026 @datasource.lastPage)",
+                                "type": "BindingInfo"
+                              },
+                              {
+                                "sourceExpression": "previousEnabled",
+                                "targetExpression": "!@datasource.firstPage \u0026\u0026 !@datasource.loading \u0026\u0026 !@datasource.creating",
+                                "targetLiteralExpression": "!@datasource.firstPage \u0026\u0026 !@datasource.loading \u0026\u0026 !@datasource.creating",
+                                "type": "BindingInfo"
+                              },
+                              {
+                                "sourceExpression": "nextEnabled",
+                                "targetExpression": "!@datasource.lastPage \u0026\u0026 !@datasource.loading \u0026\u0026 !@datasource.creating",
+                                "targetLiteralExpression": "!@datasource.lastPage \u0026\u0026 !@datasource.loading \u0026\u0026 !@datasource.creating",
+                                "type": "BindingInfo"
+                              },
+                              {
+                                "sourceExpression": "text",
+                                "targetExpression": "\"Page \" + @datasource.query.pageIndex",
+                                "targetLiteralExpression": "\"Page \" + @datasource.query.pageIndex",
+                                "type": "BindingInfo"
+                              }
+                            ],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "name",
+                          "v": "Table1Pager"
+                        },
+                        {
+                          "k": "suffixName",
+                          "v": "Pager"
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": true
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 10
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": true
+                        },
+                        {
+                          "k": "right",
+                          "v": 10
+                        },
+                        {
+                          "k": "text",
+                          "v": "@expr"
+                        },
+                        {
+                          "k": "align",
+                          "v": "end"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "top",
+                "v": 32
+              },
+              {
+                "k": "left",
+                "v": 468
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "0_86087205",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 92
+              },
+              {
+                "k": "height",
+                "v": 36
+              },
+              {
+                "k": "name",
+                "v": "Button1"
+              },
+              {
+                "k": "left",
+                "v": 10
+              },
+              {
+                "k": "top",
+                "v": 456
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 858
+              },
+              {
+                "k": "bottom",
+                "v": 468
+              },
+              {
+                "k": "text",
+                "v": "List"
+              },
+              {
+                "k": "action",
+                "v": "doListTasks();"
+              }
+            ],
+            "type": "ComponentInfo"
+          }
+        ],
+        "type": "List[ComponentInfo]"
+      }
+    }
+  ],
+  "type": "ComponentInfo"
+}

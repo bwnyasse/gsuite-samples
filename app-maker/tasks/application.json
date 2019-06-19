@@ -1,0 +1,15 @@
+{
+  "applicationTimeZone": "Etc/GMT",
+  "enabledMaestroServices": [{
+    "devConsoleServiceName": "tasks",
+    "displayName": "Tasks API",
+    "documentationLink": "https://developers.google.com/apps-script/advanced/tasks",
+    "identifier": "Tasks",
+    "maestroServiceName": "tasks",
+    "version": "v1"
+  }],
+  "executionMode": "USER",
+  "groups": [],
+  "initialViewKey": "WUQtOvH9awk8YYBHh53vGblXXPBWZqYh",
+  "templateKey": "sqlTemplate.blank"
+}
